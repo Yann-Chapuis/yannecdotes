@@ -1,6 +1,6 @@
 {
-    "manifest_version": 2,
-    "name": "Chrome-Chat",
+    "manifest_version": 3,
+    "name": "Chrome Chat",
     "version": "1.0.0",
     "description": "Easy Interaction System with ChatGPT",
     "icons": {
@@ -8,12 +8,13 @@
       "48": "img/icons/favicon-48x48.png",
       "128": "img/icons/favicon-128x128.png"
     },
-    "browser_action": {
+    "action": {
       "default_popup": "index.html",
       "default_icon": "img/icons/favicon-48x48.png"
     },
     "permissions": [
       "activeTab"
     ],
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    "content_security_policy": {
+    }
   }
