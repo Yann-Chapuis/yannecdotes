@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Chrome Chat",
+    "name": "Yannecdote",
     "version": "1.0.0",
-    "description": "Easy Interaction System with ChatGPT",
+    "description": "Et hop ! Une anecdote",
     "icons": {
       "16": "img/icons/favicon-16x16.png",
       "48": "img/icons/favicon-48x48.png",
