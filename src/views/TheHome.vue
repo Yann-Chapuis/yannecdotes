@@ -3,7 +3,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
 </script>
 
 <template>
-  <div class="grid place-items-center">
+  <main class="grid place-items-center">
     <TheWelcome />
-  </div>
+  </main>
 </template>
