@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
+import TheAnecdotes from '@/components/TheAnecdotes.vue'
 </script>
 
 <template>
   <div class="grid place-items-center">
-    <TheWelcome />
+    <TheAnecdotes />
   </div>
 </template>
